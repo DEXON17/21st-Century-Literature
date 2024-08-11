@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21st Century Literature Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>21st Century Literature Quiz</h1>
+        <form id="quizForm">
+            <div class="question" id="question1">
+                <p>1. What does the term "literature" originate from?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q1" value="A"> A) Littera</label>
+                <label><input type="radio" name="q1" value="B"> B) Litera</label>
+                <label><input type="radio" name="q1" value="C"> C) Lituro</label>
+                <label><input type="radio" name="q1" value="D"> D) Literario</label>
+            </div>
+            
+            <div class="question" id="question2">
+                <p>2. Which period is known for the introduction of English in Filipino writing?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q2" value="A"> A) Spanish Period</label>
+                <label><input type="radio" name="q2" value="B"> B) American Regime</label>
+                <label><input type="radio" name="q2" value="C"> C) Japanese Period</label>
+                <label><input type="radio" name="q2" value="D"> D) Period of Enlightenment</label>
+            </div>
+            
+            <div class="question" id="question3">
+                <p>3. What are the main focuses of the 21st Century Period in literature?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q3" value="A"> A) Tradition and folklore</label>
+                <label><input type="radio" name="q3" value="B"> B) New trends and advances</label>
+                <label><input type="radio" name="q3" value="C"> C) Colonial influence</label>
+                <label><input type="radio" name="q3" value="D"> D) Nationalism</label>
+            </div>
+
+            <div class="question" id="question4">
+                <p>4. Which of the following is a type of poem popular during the Japanese Period?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q4" value="A"> A) Sonnet</label>
+                <label><input type="radio" name="q4" value="B"> B) Haiku</label>
+                <label><input type="radio" name="q4" value="C"> C) Ode</label>
+                <label><input type="radio" name="q4" value="D"> D) Free verse</label>
+            </div>
+            
+            <div class="question" id="question5">
+                <p>5. What literary period followed the EDSA Revolution?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q5" value="A"> A) Pre-Spanish Literature</label>
+                <label><input type="radio" name="q5" value="B"> B) Period of the New Society</label>
+                <label><input type="radio" name="q5" value="C"> C) Post-EDSA Revolution</label>
+                <label><input type="radio" name="q5" value="D"> D) Period of Enlightenment</label>
+            </div>
+            
+            <div class="question" id="question6">
+                <p>6. Which form of literature is expressed through meaning, sound, meter, and rhyme?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q6" value="A"> A) Drama</label>
+                <label><input type="radio" name="q6" value="B"> B) Prose</label>
+                <label><input type="radio" name="q6" value="C"> C) Poetry</label>
+                <label><input type="radio" name="q6" value="D"> D) Fiction</label>
+            </div>
+            
+            <div class="question" id="question7">
+                <p>7. Which literary period is known for the darkest times in Filipino history due to hardships?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q7" value="A"> A) American Regime</label>
+                <label><input type="radio" name="q7" value="B"> B) Japanese Period</label>
+                <label><input type="radio" name="q7" value="C"> C) Period of Activism</label>
+                <label><input type="radio" name="q7" value="D"> D) 21st Century Period</label>
+            </div>
+            
+            <div class="question" id="question8">
+                <p>8. What is the main characteristic of non-fiction?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q8" value="A"> A) Created by imagination</label>
+                <label><input type="radio" name="q8" value="B"> B) Based on facts</label>
+                <label><input type="radio" name="q8" value="C"> C) Written in verse</label>
+                <label><input type="radio" name="q8" valSue="D"> D) Performed on stage</label>
+            </div>
+            
+            <div class="question" id="question9">
+                <p>9. What does the Period of Activism (1970-1972) signify in Philippine literature?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q9" value="A"> A) Introduction of English</label>
+                <label><input type="radio" name="q9" value="B"> B) Literary revolution</label>
+                <label><input type="radio" name="q9" value="C"> C) Emergence of folk songs</label>
+                <label><input type="radio" name="q9" value="D"> D) Influence of Spanish culture</label>
+            </div>
+            
+            <div class="question" id="question10">
+                <p>10. What is the defining feature of drama in literature?</p>
+                <div class="image-container"></div>
+                <label><input type="radio" name="q10" value="A"> A) Written in prose or verse</label>
+                <label><input type="radio" name="q10" value="B"> B) Created by imagination</label>
+                <label><input type="radio" name="q10" value="C"> C) Based on facts</label>
+                <label><input type="radio" name="q10" value="D"> D) Expressed through rhyme</label>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
